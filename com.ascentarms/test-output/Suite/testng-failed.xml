@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.utility.Listeners"/>
+  </listeners>
+  <test name="Password Reset Test(failed)">
+    <classes>
+      <class name="Testclases.PasswordResetTest">
+        <methods>
+          <include name="testReports"/>
+          <include name="setUp"/>
+          <include name="CaptureScreenshot"/>
+          <include name="ResetPassword"/>
+        </methods>
+      </class> <!-- Testclases.PasswordResetTest -->
+    </classes>
+  </test> <!-- Password Reset Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
