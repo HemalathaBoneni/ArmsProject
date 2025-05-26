@@ -29,6 +29,9 @@ public class ArmsLandingPage
 	}
 	@FindBy(xpath="//span[text()='User Management']")
 	WebElement usermanagement;
+	
+	@FindBy(xpath="//a[text()='Client Users']")
+	WebElement clientUsers;
 
 	@FindBy(xpath="//a[normalize-space()='Landing page']")
 	WebElement landingpage;
@@ -123,6 +126,11 @@ public class ArmsLandingPage
 	public void clickOnSave() 
 	{
 		save.click();
+	}
+
+	public void clickOnClientUsers() {
+
+		clientUsers.click();
 	}
 
 
